@@ -245,6 +245,7 @@ p{
 
 .map{
     border-radius: var(--border-mobile);
+    width: 100%;
 }
 
 .contactanos{
