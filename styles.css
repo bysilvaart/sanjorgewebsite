@@ -59,7 +59,7 @@ h6{
 
 p{
     font-size: 16px;
-    line-height: 20px;
+    line-height: 22px;
     font-weight: 400;
 
 }
@@ -69,18 +69,14 @@ p{
     width: 100vw;
     max-width: var(--container-width);
 }
+.navbar_logo-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 
-.navbar_container{
-    display: none;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    height: 64px;
-
-    background: #FFFAF0;
-
-    border: 1px solid #FEEACD;
-    border-radius: 15px;
+.navbar_logo-container img{
+    height: 50px;
 }
 
 .navbar_contenido{
@@ -116,6 +112,7 @@ p{
     background-size: cover;
     background-position: center;
     border-radius: var(--border-mobile);
+    border: 1px solid #FEEACD;
 }
 
 .banner-title{
@@ -145,7 +142,7 @@ p{
 .section-01{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
 }
 
 .section-02{
@@ -245,6 +242,7 @@ p{
 
 .map{
     border-radius: var(--border-mobile);
+    border: 1px solid #FEEACD;
     width: 100%;
 }
 
@@ -398,6 +396,7 @@ footer{
     .banner{
         height: 450px;
         padding: var(--padding-mobile);
+        border: 1px solid #FEEACD;
     }
     .banner-title{
         width: 100%;
@@ -449,6 +448,10 @@ footer{
         align-items: center;
         padding: var(--padding-mobile-lg);
 
+    }
+
+    .follow-us__container, .phone-numbers__container{
+        gap: 15px;
     }
 
     .phone-numbers__container, .numbers, .social-media__container, .follow-us__container{
