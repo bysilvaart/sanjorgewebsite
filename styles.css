@@ -199,7 +199,8 @@ p{
 }
 
 .nosotros img{
-    border-radius: var(--border-mobile);    
+    border-radius: var(--border-mobile);  
+    max-width: 450px;  
 }
 
 .horario{
