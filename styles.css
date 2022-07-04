@@ -427,6 +427,7 @@ footer{
 
     .nosotrs img{
         border: var(--border-mobile);
+        max-width: 450px;
     }
 
     .horario a{
